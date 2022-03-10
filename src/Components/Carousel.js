@@ -1,4 +1,5 @@
 import { Carousel } from 'react-carousel-minimal';
+import './style.css';
 
 function CarouselTest() {
  const data = [
