@@ -1,19 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
 import NavBar from './Components/NavBar';
-import Etape1 from './Components/Etape1';
-import Questions from './Components/Questions';
-import Divergence from './Components/Divergence';
-import Notation from './Components/Notation';
+import Footer from './Components/Footer';
+import CarouselTest from './Components/Carousel';
+
 
 function App() {
   return (
-    <div>
-      <header>
+    <div className="App">
       <NavBar/>
-      <Notation/>
-      </header>
-
+      <Footer/>
     </div>
   );
 }
