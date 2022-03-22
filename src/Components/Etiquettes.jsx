@@ -14,7 +14,7 @@ export class Etiquettes extends Component {
         super(props);
       
         this.state = {
-          dynamicTags: ['Environnement'],
+          dynamicTags: [],
           inputVisible: false,
           inputValue: '',
           type: 'danger'

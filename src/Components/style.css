@@ -1,3 +1,22 @@
-.active{
+.active {
     background-color: #11ffee00 !important;
+}
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.el-menu--dark {
+    background-color: #96172e !important;
+}
+
+.footer {
+    display: flex;
+    position: static;
+    top: auto;
+    left: auto;
+    bottom: auto;
+    top: auto;
+    margin: 0 auto 40px;
 }

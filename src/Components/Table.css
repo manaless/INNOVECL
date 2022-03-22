@@ -1,0 +1,176 @@
+.el-select {
+    display: block !important;
+}
+.ContainerForm {
+    background-color: #fff;
+    box-shadow: 0px 0px 12px 2px rgba(15, 15, 15, 0.2);
+    border-radius: 4px;
+    position: relative;
+    z-index: 29;
+    width: 50%;
+    height: 100%;
+    padding: 17px 10px;
+    margin-top: 10px;
+}
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ContainerTable {
+    background-color: #fff;
+    box-shadow: 0px 0px 12px 2px rgba(15, 15, 15, 0.2);
+    border-radius: 4px;
+    position: relative;
+    z-index: 28;
+    width: fit-content;
+    height: 100%;
+    padding: 17px 10px;
+    margin-top: 10px;
+}
+.el-icon-information {
+    margin-right: 10px;
+}
+.el-icon-delete {
+    margin-left: 15px !important;
+}
+.el-icon-edit {
+    margin-left: 5px !important;
+}
+
+.button-popup {
+    color: #fff !important ;
+    background-color: #324157 !important;
+    border-color: #324157 !important;
+}
+
+.ReactModal.modal-cover {
+    height: 800px;
+    width: 20px;
+    z-index: 50;
+    justify-content: center;
+    align-items: center;
+}
+
+.ReactModal {
+    background-color: #000;
+}
+.ReactModal__Content {
+    width: 500px;
+    margin: auto;
+    z-index: 50;
+}
+.createBtn {
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    margin-top: 15px;
+}
+
+.el-select-dropdown {
+    bottom: auto !important;
+    top: 100% !important;
+}
+
+.ReactModal__Overlay {
+    z-index: 50;
+}
+
+ul.listUL {
+    list-style-type: circle;
+}
+
+.returnBtn {
+    float: left;
+    position: absolute;
+    left: 0;
+    margin: 20px;
+}
+.el-table th {
+    white-space: nowrap;
+    overflow: hidden;
+    background-color: #e5e7e9 !important;
+    text-align: left;
+}
+.el-table__footer-wrapper thead div,
+.el-table__header-wrapper thead div {
+    background-color: #e5e7e9;
+    color: #96172e;
+}
+.el-table th {
+    white-space: nowrap;
+    text-align: center !important;
+}
+.el-menu--horizontal.el-menu--dark .el-menu-item:hover,
+.el-menu--horizontal.el-menu--dark .el-submenu__title:hover {
+    background-color: #660202 !important;
+}
+.el-menu--horizontal > .el-menu-item:hover,
+.el-menu--horizontal > .el-submenu.is-active .el-submenu__title,
+.el-menu--horizontal > .el-submenu:hover .el-submenu__title {
+    border-bottom: 5px solid #b60000 !important;
+}
+.button {
+    font: bold 11px Arial;
+    text-decoration: none;
+    background-color: #eeeeee;
+    color: #333333;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid #cccccc;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #cccccc;
+}
+.el-button--danger:focus,
+.el-button--danger:hover {
+    background: #96172e;
+    border-color: #96172e !important;
+    color: #fff;
+}
+.el-button--danger.is-plain:focus,
+.el-button--danger.is-plain:hover {
+    color: #96172e !important;
+}
+.el-radio-button__orig-radio:checked + .el-radio-button__inner {
+    color: #fff;
+    background-color: #96172e !important;
+    border-color: #96172e !important;
+    box-shadow: -1px 0 0 0 #96172e !important;
+}
+
+.ideas {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.ideas form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.ideas form label {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.ideas form .add-idea {
+    display: flex;
+    align-items: center;
+}
+
+.ideas form .add-idea textarea {
+    resize: none;
+    min-height: 50px;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+.ideas form .add-idea button {
+    text-align: left;
+}
+
+.ideas form > button {
+    margin-left: 80%;
+    width: 20%;
+}
